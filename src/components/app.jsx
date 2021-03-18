@@ -36,15 +36,21 @@ class App extends Component {
 
   render() {
     const { gifIdSelected, gifIdList } = this.state;
+    const styleObj = {
+      backgroundImage: 'url(assets/stylesheets/images/background-large.png)'
+    };
+    const styleObj2 = {
+      backgroundImage: 'url(assets/stylesheets/images/right-side2.jpg)'
+    };
     return (
       <div>
         <div className="left-scene">
           <SearchBar fetchGiphy={this.fetchGiphy} />
-          <div className="selected-gif">
+          <div className="selected-gif" style={styleObj}>
             <Gif gifId={gifIdSelected} />
           </div>
         </div>
-        <div className="right-scene">
+        <div className="right-scene" style={styleObj2}>
           <GifList gifIdList={gifIdList} changeSelectGif={this.changeSelectGif} />
         </div>
       </div>
