@@ -20,8 +20,8 @@ export default class Gif extends Component {
         src={url}
         alt="gif"
         className="gif"
-        // eslint-disable-next-line react/jsx-closing-bracket-location
-        onClick={this.handleClick} />
+        onClick={this.handleClick}
+      />
     );
   }
 }
