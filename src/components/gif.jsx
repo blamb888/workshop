@@ -16,7 +16,10 @@ export default class Gif extends Component {
     return (
       // eslint-disable-next-line react/prefer-stateless-function
       // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
-      <img src={url} alt="gif" className="gif"
+      <img
+        src={url}
+        alt="gif"
+        className="gif"
         onClick={this.handleClick} />
     );
   }
