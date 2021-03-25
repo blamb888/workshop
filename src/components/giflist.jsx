@@ -9,13 +9,14 @@ export default class GifList extends Component {
     return (
       <div className="gif-list">
         { gifIdList.map(
-          (gifId) => (
-            <Gif
-              gifId={gifId}
-              key={gifId}
-              changeSelectGif={changeSelectGif}
-            />
-          )
+          (gifId) => {
+            return (
+              <Gif
+                gifId={gifId}
+                key={gifId}
+                changeSelectGif={changeSelectGif} />
+            );
+          }
         )}
       </div>
     );
