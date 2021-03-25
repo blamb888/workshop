@@ -14,8 +14,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gifIdList: ["T9JPznkGDAxYC8m7yC", "2A4B1DpUJxSAHhc6cG", "fe4695iudYhnGAiIia"],
-      gifIdSelected: "DAGAgaS8sIZmjpnihn"
+      gifIdList: [],
+      gifIdSelected: null // "DAGAgaS8sIZmjpnihn"
     };
     this.fetchGiphy("stranger things");
   }

@@ -12,6 +12,10 @@ export default class Gif extends Component {
 
   render() {
     const { gifId } = this.props;
+    if (!gifId) {
+      return null;
+    }
+
     const url = `https://media.giphy.com/media/${gifId}/giphy.gif`;
     return (
       // eslint-disable-next-line react/prefer-stateless-function
