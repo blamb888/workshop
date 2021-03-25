@@ -14,7 +14,8 @@ export default class GifList extends Component {
               <Gif
                 gifId={gifId}
                 key={gifId}
-                changeSelectGif={changeSelectGif} />
+                changeSelectGif={changeSelectGif}
+              />
             );
           }
         )}
