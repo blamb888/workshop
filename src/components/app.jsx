@@ -37,10 +37,10 @@ class App extends Component {
   render() {
     const { gifIdSelected, gifIdList } = this.state;
     const styleObj = {
-      backgroundImage: 'url(assets/stylesheets/images/background-large.png)'
+      backgroundImage: 'url(../images/background-large.png)'
     };
     const styleObj2 = {
-      backgroundImage: 'url(assets/stylesheets/images/right-side2.jpg)'
+      backgroundImage: 'url(../images/right-side2.jpg)'
     };
     return (
       <div>
