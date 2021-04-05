@@ -1,4 +1,4 @@
-# react-boilerplate
+<h1> Stranger Gifs </h1>
 
 ![image](https://user-images.githubusercontent.com/3223329/111479702-8eff8a80-8774-11eb-8ed6-77782de46fbf.png)
 
