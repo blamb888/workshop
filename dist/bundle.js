@@ -1,6 +1,26 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./assets/stylesheets/images/background-large.png":
+/*!********************************************************!*\
+  !*** ./assets/stylesheets/images/background-large.png ***!
+  \********************************************************/
+/***/ (() => {
+
+throw new Error("Module parse failed: Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n(Source code omitted for this binary file)");
+
+/***/ }),
+
+/***/ "./assets/stylesheets/images/right-side2.jpg":
+/*!***************************************************!*\
+  !*** ./assets/stylesheets/images/right-side2.jpg ***!
+  \***************************************************/
+/***/ (() => {
+
+throw new Error("Module parse failed: Unexpected character '�' (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n(Source code omitted for this binary file)");
+
+/***/ }),
+
 /***/ "./src/components/app.jsx":
 /*!********************************!*\
   !*** ./src/components/app.jsx ***!
@@ -96,25 +116,23 @@ var App = /*#__PURE__*/function (_Component) {
     value: function render() {
       var _this$state = this.state,
           gifIdSelected = _this$state.gifIdSelected,
-          gifIdList = _this$state.gifIdList;
-      var styleObj = {
-        backgroundImage: 'url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29541bea-9f34-4505-98e3-220fb1a66afa/ddbynxg-7baf2ac6-c0b6-40c5-bec2-6102d37e3611.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjk1NDFiZWEtOWYzNC00NTA1LTk4ZTMtMjIwZmIxYTY2YWZhXC9kZGJ5bnhnLTdiYWYyYWM2LWMwYjYtNDBjNS1iZWMyLTYxMDJkMzdlMzYxMS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aHMmRcRk0tdik6o43A9i23nDr3IDRpSulrMdORKb5hw)'
-      };
-      var styleObj2 = {
-        backgroundImage: 'url(https://wallpaperaccess.com/full/825441.jpg)'
-      };
+          gifIdList = _this$state.gifIdList; // const styleObj = {
+      //   backgroundImage: 'url(assets/stylesheets/images/background-large.png)'
+      // };
+      // const styleObj2 = {
+      //   backgroundImage: 'url(assets/stylesheets/images/right-side2.jpg)'
+      // };
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "left-scene"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_searchBar__WEBPACK_IMPORTED_MODULE_1__.default, {
         fetchGiphy: this.fetchGiphy
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "selected-gif",
-        style: styleObj
+        className: "selected-gif"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_gif__WEBPACK_IMPORTED_MODULE_3__.default, {
         gifId: gifIdSelected
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "right-scene",
-        style: styleObj2
+        className: "right-scene"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_giflist__WEBPACK_IMPORTED_MODULE_2__.default, {
         gifIdList: gifIdList,
         changeSelectGif: this.changeSelectGif
@@ -396,13 +414,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_background_large_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/background-large.png */ "./assets/stylesheets/images/background-large.png");
+/* harmony import */ var _images_background_large_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_background_large_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_right_side2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/right-side2.jpg */ "./assets/stylesheets/images/right-side2.jpg");
+/* harmony import */ var _images_right_side2_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_right_side2_jpg__WEBPACK_IMPORTED_MODULE_4__);
 // Imports
+
+
+
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_images_background_large_png__WEBPACK_IMPORTED_MODULE_3___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_images_right_side2_jpg__WEBPACK_IMPORTED_MODULE_4___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: Helvetica; }\n\n#root > div {\n  display: flex;\n  height: 100vh; }\n\n.header-centered {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  margin: 0; }\n\n.left-scene {\n  flex: 0 0 60%;\n  position: sticky;\n  display: flex;\n  flex-direction: column; }\n  .left-scene .form-search {\n    padding: 60px 60px 60px 120px;\n    border: none;\n    font-size: 2.6em;\n    box-shadow: none; }\n    .left-scene .form-search:focus {\n      box-shadow: none; }\n  .left-scene:before {\n    content: '\\F002';\n    position: absolute;\n    top: 35px;\n    left: 60px;\n    font-family: FontAwesome;\n    font-size: 2.6em;\n    opacity: 0.4; }\n  .left-scene .selected-gif {\n    text-align: center;\n    display: flex;\n    flex-grow: 1;\n    height: calc(100vh - 232px);\n    background-image: url(\"data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.22'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E\"); }\n    .left-scene .selected-gif .gif {\n      max-width: 80%;\n      max-height: 80%;\n      margin: auto; }\n\n.right-scene {\n  flex: 0 0 40%;\n  background-color: #ecf0f1;\n  overflow: scroll; }\n  .right-scene .gif-list {\n    column-count: 2;\n    column-gap: 5px;\n    padding: 5px; }\n    .right-scene .gif-list .gif {\n      width: 100%;\n      margin: 5px;\n      cursor: pointer; }\n\n.clicked {\n  color: red; }\n", "",{"version":3,"sources":["webpack://./assets/stylesheets/application.scss"],"names":[],"mappings":"AAEA;EACE,sBAAsB,EAAA;;AAGxB;EACE,aAAa;EACb,aAAa,EAAA;;AAGf;EACE,eAAe;EACf,QAAQ;EACR,SAAS;EACT,iCAAiC;EACjC,SAAS,EAAA;;AAGX;EACE,aAAa;EACb,gBAAgB;EAChB,aAAa;EACb,sBAAsB,EAAA;EAJxB;IAOI,6BAA6B;IAC7B,YAAY;IACZ,gBAAgB;IAChB,gBAAgB,EAAA;IAVpB;MAYM,gBAAgB,EAAA;EAZtB;IAiBI,gBAAgB;IAChB,kBAAkB;IAClB,SAAS;IACT,UAAU;IACV,wBAAwB;IACxB,gBAAgB;IAChB,YAAY,EAAA;EAvBhB;IA2BI,kBAAkB;IAClB,aAAa;IACb,YAAY;IACZ,2BAA2B;IAE3B,wgBAAwgB,EAAA;IAhC5gB;MAkCM,cAAc;MACd,eAAe;MACf,YAAY,EAAA;;AAKlB;EACE,aAAa;EACb,yBAAyB;EACzB,gBAAgB,EAAA;EAHlB;IAMI,eAAe;IACf,eAAe;IACf,YAAY,EAAA;IARhB;MAWM,WAAW;MACX,WAAW;MACX,eAAe,EAAA;;AAKrB;EACE,UAAU,EAAA","sourcesContent":["@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');\n\nbody {\n  font-family: Helvetica;\n}\n\n#root > div {\n  display: flex;\n  height: 100vh;\n}\n\n.header-centered {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  margin: 0;\n}\n\n.left-scene {\n  flex: 0 0 60%;\n  position: sticky;\n  display: flex;\n  flex-direction: column;\n\n  .form-search {\n    padding: 60px 60px 60px 120px;\n    border: none;\n    font-size: 2.6em;\n    box-shadow: none;\n    &:focus {\n      box-shadow: none;\n    }\n  }\n\n  &:before {\n    content: '\\F002';\n    position: absolute;\n    top: 35px;\n    left: 60px;\n    font-family: FontAwesome;\n    font-size: 2.6em;\n    opacity: 0.4;\n  }\n\n  .selected-gif {\n    text-align: center;\n    display: flex;\n    flex-grow: 1;\n    height: calc(100vh - 232px);\n    // background-image: url(\"images/poster.jpg\");\n    background-image: url(\"data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.22'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n    .gif {\n      max-width: 80%;\n      max-height: 80%;\n      margin: auto;\n    }\n  }\n}\n\n.right-scene {\n  flex: 0 0 40%;\n  background-color: #ecf0f1;\n  overflow: scroll;\n\n  .gif-list {\n    column-count: 2;\n    column-gap: 5px;\n    padding: 5px;\n\n    .gif {\n      width: 100%;\n      margin: 5px;\n      cursor: pointer;\n    }\n  }\n}\n\n.clicked {\n  color: red;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: Helvetica; }\n\n#root > div {\n  display: flex;\n  height: 100vh; }\n\n.header-centered {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  margin: 0; }\n\n.left-scene {\n  flex: 0 0 60%;\n  position: sticky;\n  display: flex;\n  flex-direction: column; }\n  .left-scene .form-search {\n    padding: 60px 60px 60px 120px;\n    border: none;\n    font-size: 2.6em;\n    box-shadow: none; }\n    .left-scene .form-search:focus {\n      box-shadow: none; }\n  .left-scene:before {\n    content: '\\F002';\n    position: absolute;\n    top: 35px;\n    left: 60px;\n    font-family: FontAwesome;\n    font-size: 2.6em;\n    opacity: 0.4; }\n  .left-scene .selected-gif {\n    text-align: center;\n    display: flex;\n    flex-grow: 1;\n    height: calc(100vh - 232px);\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n    .left-scene .selected-gif .gif {\n      max-width: 80%;\n      max-height: 80%;\n      margin: auto; }\n\n.right-scene {\n  flex: 0 0 40%;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-color: #ecf0f1;\n  overflow: scroll; }\n  .right-scene .gif-list {\n    column-count: 2;\n    column-gap: 5px;\n    padding: 5px; }\n    .right-scene .gif-list .gif {\n      width: 100%;\n      margin: 5px;\n      cursor: pointer; }\n\n.clicked {\n  color: red; }\n", "",{"version":3,"sources":["webpack://./assets/stylesheets/application.scss"],"names":[],"mappings":"AAEA;EACE,sBAAsB,EAAA;;AAGxB;EACE,aAAa;EACb,aAAa,EAAA;;AAGf;EACE,eAAe;EACf,QAAQ;EACR,SAAS;EACT,iCAAiC;EACjC,SAAS,EAAA;;AAGX;EACE,aAAa;EACb,gBAAgB;EAChB,aAAa;EACb,sBAAsB,EAAA;EAJxB;IAOI,6BAA6B;IAC7B,YAAY;IACZ,gBAAgB;IAChB,gBAAgB,EAAA;IAVpB;MAYM,gBAAgB,EAAA;EAZtB;IAiBI,gBAAgB;IAChB,kBAAkB;IAClB,SAAS;IACT,UAAU;IACV,wBAAwB;IACxB,gBAAgB;IAChB,YAAY,EAAA;EAvBhB;IA2BI,kBAAkB;IAClB,aAAa;IACb,YAAY;IACZ,2BAA2B;IAC3B,yDAAsD,EAAA;IA/B1D;MAkCM,cAAc;MACd,eAAe;MACf,YAAY,EAAA;;AAKlB;EACE,aAAa;EACb,yDAAiD;EACjD,yBAAyB;EACzB,gBAAgB,EAAA;EAJlB;IAOI,eAAe;IACf,eAAe;IACf,YAAY,EAAA;IAThB;MAYM,WAAW;MACX,WAAW;MACX,eAAe,EAAA;;AAKrB;EACE,UAAU,EAAA","sourcesContent":["@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');\n\nbody {\n  font-family: Helvetica;\n}\n\n#root > div {\n  display: flex;\n  height: 100vh;\n}\n\n.header-centered {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  margin: 0;\n}\n\n.left-scene {\n  flex: 0 0 60%;\n  position: sticky;\n  display: flex;\n  flex-direction: column;\n\n  .form-search {\n    padding: 60px 60px 60px 120px;\n    border: none;\n    font-size: 2.6em;\n    box-shadow: none;\n    &:focus {\n      box-shadow: none;\n    }\n  }\n\n  &:before {\n    content: '\\F002';\n    position: absolute;\n    top: 35px;\n    left: 60px;\n    font-family: FontAwesome;\n    font-size: 2.6em;\n    opacity: 0.4;\n  }\n\n  .selected-gif {\n    text-align: center;\n    display: flex;\n    flex-grow: 1;\n    height: calc(100vh - 232px);\n    background-image: url(\"./images/background-large.png\");\n    // background-image: url(\"data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.22'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n    .gif {\n      max-width: 80%;\n      max-height: 80%;\n      margin: auto;\n    }\n  }\n}\n\n.right-scene {\n  flex: 0 0 40%;\n  background-image: url(\"./images/right-side2.jpg\");\n  background-color: #ecf0f1;\n  overflow: scroll;\n\n  .gif-list {\n    column-count: 2;\n    column-gap: 5px;\n    padding: 5px;\n\n    .gif {\n      width: 100%;\n      margin: 5px;\n      cursor: pointer;\n    }\n  }\n}\n\n.clicked {\n  color: red;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -523,6 +552,50 @@ module.exports = function cssWithMappingToString(item) {
   }
 
   return [content].join("\n");
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
