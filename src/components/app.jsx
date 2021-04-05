@@ -36,21 +36,21 @@ class App extends Component {
 
   render() {
     const { gifIdSelected, gifIdList } = this.state;
-    const styleObj = {
-      backgroundImage: 'url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29541bea-9f34-4505-98e3-220fb1a66afa/ddbynxg-7baf2ac6-c0b6-40c5-bec2-6102d37e3611.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjk1NDFiZWEtOWYzNC00NTA1LTk4ZTMtMjIwZmIxYTY2YWZhXC9kZGJ5bnhnLTdiYWYyYWM2LWMwYjYtNDBjNS1iZWMyLTYxMDJkMzdlMzYxMS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aHMmRcRk0tdik6o43A9i23nDr3IDRpSulrMdORKb5hw)'
-    };
-    const styleObj2 = {
-      backgroundImage: 'url(https://wallpaperaccess.com/full/825441.jpg)'
-    };
+    // const styleObj = {
+    //   backgroundImage: 'url(assets/stylesheets/images/background-large.png)'
+    // };
+    // const styleObj2 = {
+    //   backgroundImage: 'url(assets/stylesheets/images/right-side2.jpg)'
+    // };
     return (
       <div>
         <div className="left-scene">
           <SearchBar fetchGiphy={this.fetchGiphy} />
-          <div className="selected-gif" style={styleObj}>
+          <div className="selected-gif">
             <Gif gifId={gifIdSelected} />
           </div>
         </div>
-        <div className="right-scene" style={styleObj2}>
+        <div className="right-scene">
           <GifList gifIdList={gifIdList} changeSelectGif={this.changeSelectGif} />
         </div>
       </div>

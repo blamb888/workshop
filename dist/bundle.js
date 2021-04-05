@@ -98,10 +98,10 @@ var App = /*#__PURE__*/function (_Component) {
           gifIdSelected = _this$state.gifIdSelected,
           gifIdList = _this$state.gifIdList;
       var styleObj = {
-        backgroundImage: 'url(./images/background-large.png)'
+        backgroundImage: 'url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/29541bea-9f34-4505-98e3-220fb1a66afa/ddbynxg-7baf2ac6-c0b6-40c5-bec2-6102d37e3611.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjk1NDFiZWEtOWYzNC00NTA1LTk4ZTMtMjIwZmIxYTY2YWZhXC9kZGJ5bnhnLTdiYWYyYWM2LWMwYjYtNDBjNS1iZWMyLTYxMDJkMzdlMzYxMS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.aHMmRcRk0tdik6o43A9i23nDr3IDRpSulrMdORKb5hw)'
       };
       var styleObj2 = {
-        backgroundImage: 'url(./images/right-side2.jpg)'
+        backgroundImage: 'url(https://wallpaperaccess.com/full/825441.jpg)'
       };
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "left-scene"
