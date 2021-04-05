@@ -37,6 +37,7 @@
     "start": "webpack-cli serve --mode development",
     "lint": "eslint './src/**/*.js*'",
     "create-gh-pages": "git branch gh-pages -f && git push origin gh-pages -f && gh-pages -d dist && gh repo view -w",
-    "deploy": "webpack && yarn create-gh-pages"
+    "deploy": "webpack && yarn create-gh-pages",
+    "deploy2": "webpack -p && gh-pages -d dist"
   }
 }
