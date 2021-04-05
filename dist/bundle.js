@@ -98,10 +98,10 @@ var App = /*#__PURE__*/function (_Component) {
           gifIdSelected = _this$state.gifIdSelected,
           gifIdList = _this$state.gifIdList;
       var styleObj = {
-        backgroundImage: 'url(assets/stylesheets/images/background-large.png)'
+        backgroundImage: 'url(../images/background-large.png)'
       };
       var styleObj2 = {
-        backgroundImage: 'url(assets/stylesheets/images/right-side2.jpg)'
+        backgroundImage: 'url(../images/right-side2.jpg)'
       };
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "left-scene"
