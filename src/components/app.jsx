@@ -21,6 +21,7 @@ class App extends Component {
   }
 
   fetchGiphy = (keyword) => {
+    keyword = keyword ? keyword : "stranger things"; // if the string is empty, it will search for stranger things
     giphy.search({
       q: keyword,
       rating: 'g',
