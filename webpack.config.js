@@ -14,8 +14,7 @@ module.exports = {
   devtool: 'source-map',
   mode: "development",
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: 'babel-loader'
@@ -23,15 +22,22 @@ module.exports = {
       {
         test: /\.s?css$/,
         exclude: /node_modules/,
-        use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+        use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
         test: /\.html$/,
         use: 'html-loader'
       },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader',
+        options: {
+          name: 'images/[name].[hash].[ext]'
+        }
+      }
     ]
   },
   resolve: {
-    extensions: [ '.js', '.jsx' ]
+    extensions: ['.js', '.jsx']
   }
 };
